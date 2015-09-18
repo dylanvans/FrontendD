@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+body > header {
+	background-color: blue;
+	width: 10%;
+	left:0em;
+	top:0em;
+}
+
+main {
+	background-color: yellow;
+	position: absolute;
+	width:45%;
+	left:10%;
+	top:0em;
+}
+section.related {
+	background-color: red;
+	width:15%;
+	position: absolute;
+	left:55%;
+	top:0em;
+}
+
+aside {
+	background-color: grey;
+	width:30%;
+	left:70%;
+	top:0em;
+	position: absolute;
+
+}
+
+body > footer {
+	background-color: green;
+	position: relative;
+}
+
+body > header, main, section.related, aside, body>footer {
+	
+}
